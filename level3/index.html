@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Terminal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form id="registrationForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <span id="nameError" class="error"></span>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <span id="emailError" class="error"></span>
+      
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <span id="passwordError" class="error"></span>
+      
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+        <span id="confirmPasswordError" class="error"></span>
+      
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone" required>
+        <span id="phoneError" class="error"></span>
+      
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+        <span id="ageError" class="error"></span>
+      
+        <br><br><br><br>
+        <button type="submit" id="submitButton" disabled>Submit</button>
+    </form>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
